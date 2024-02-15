@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240215-1145-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.0-rc5"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-4LGMJFBT"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="18705"
+	TotalPhysicalMemory="16273"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2592"
+	>
+	<Testing>
+		<StartDateTime>Feb 15 12:10 GMT Standard Time</StartDateTime>
+		<StartTestTime>1707999037</StartTestTime>
+		<TestList>
+			<Test>./testa.add</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>testa.add</Name>
+			<Path>.</Path>
+			<FullName>./testa.add</FullName>
+			<FullCommandLine>D:\Projects\vscode\GoogleTestProject\build\mytests.exe "--gtest_filter=testa.add" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0715273</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\Projects\vscode\GoogleTestProject\build\mytests.exe "--gtest_filter=testa.add" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE8LgkAQxe/7Kd5RD0peAw9B4SGw0DqJhw1HEdbdWMf6+plLYkHUO82fHzNvJjVMayTGNIpwop5Rt4rJIgaPmQxlVYkinlUiG7RudYNoAlBb073ifmiZQlEEs0okylykcn3St9Ya3ZEeWeJguH7Ay5nTelEgO6eYVC4duRIO+2UZ3gpd7/+Y6SiwYal88Z9bJmmDytz1+y++/QBW6hBetFw0Wj5u8ny3fV7i4FA8AL7Xcyg=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 15 12:10 GMT Standard Time</EndDateTime>
+		<EndTestTime>1707999037</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C4BDDA9-B76B-37AC-9EE2-591B346BC5B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\vscode\testproject\googletest\googletest\include;D:\Projects\vscode\testproject\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\vscode\testproject\googletest\googletest\include;D:\Projects\vscode\testproject\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\vscode\testproject\googletest\googletest\include;D:\Projects\vscode\testproject\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Projects\vscode\testproject\googletest\googletest\include;D:\Projects\vscode\testproject\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\vscode\testproject\googletest\googletest\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule D:/Projects/vscode/testproject/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\bin\cmake.exe -SD:/Projects/vscode/testproject -BD:/Projects/vscode/testproject/build --check-stamp-file D:/Projects/vscode/testproject/build/googletest/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython\Support.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython3.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Projects\vscode\testproject\googletest\googletest\cmake\Config.cmake.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest_main.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\Projects\vscode\testproject\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule D:/Projects/vscode/testproject/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\bin\cmake.exe -SD:/Projects/vscode/testproject -BD:/Projects/vscode/testproject/build --check-stamp-file D:/Projects/vscode/testproject/build/googletest/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython\Support.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython3.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Projects\vscode\testproject\googletest\googletest\cmake\Config.cmake.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest_main.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\Projects\vscode\testproject\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule D:/Projects/vscode/testproject/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\bin\cmake.exe -SD:/Projects/vscode/testproject -BD:/Projects/vscode/testproject/build --check-stamp-file D:/Projects/vscode/testproject/build/googletest/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython\Support.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython3.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Projects\vscode\testproject\googletest\googletest\cmake\Config.cmake.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest_main.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\Projects\vscode\testproject\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule D:/Projects/vscode/testproject/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\bin\cmake.exe -SD:/Projects/vscode/testproject -BD:/Projects/vscode/testproject/build --check-stamp-file D:/Projects/vscode/testproject/build/googletest/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython\Support.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindPython3.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\cmake-3.28.0-rc5-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Projects\vscode\testproject\googletest\googletest\cmake\Config.cmake.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\gtest_main.pc.in;D:\Projects\vscode\testproject\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\Projects\vscode\testproject\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Projects\vscode\testproject\build\ZERO_CHECK.vcxproj">
+      <Project>{48F77052-6411-376D-AF3D-7302E960EA06}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\vscode\testproject\build\googletest\googletest\gtest.vcxproj">
+      <Project>{F6290E18-854D-32C6-A55C-A3D49173AE5E}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\vscode\testproject\build\googletest\googletest\gtest_main.vcxproj">
+      <Project>{162F3DA5-DD15-327A-BC8F-A3BAB194DB6B}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

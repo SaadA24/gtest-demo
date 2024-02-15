@@ -1,0 +1,29 @@
+Start testing: Feb 15 12:10 GMT Standard Time
+----------------------------------------------------------
+1/1 Testing: testa.add
+1/1 Test: testa.add
+Command: "D:/Projects/vscode/GoogleTestProject/build/mytests.exe" "--gtest_filter=testa.add" "--gtest_also_run_disabled_tests"
+Directory: D:/Projects/vscode/GoogleTestProject/build
+"testa.add" start time: Feb 15 12:10 GMT Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = testa.add
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from testa
+[ RUN      ] testa.add
+[       OK ] testa.add (0 ms)
+[----------] 1 test from testa (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"testa.add" end time: Feb 15 12:10 GMT Standard Time
+"testa.add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 15 12:10 GMT Standard Time

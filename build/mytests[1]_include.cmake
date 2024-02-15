@@ -1,0 +1,5 @@
+if(EXISTS "D:/Projects/vscode/GoogleTestProject/build/mytests[1]_tests.cmake")
+  include("D:/Projects/vscode/GoogleTestProject/build/mytests[1]_tests.cmake")
+else()
+  add_test(mytests_NOT_BUILT mytests_NOT_BUILT)
+endif()
